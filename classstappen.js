@@ -6,7 +6,7 @@ class discordgebruiker {
             // this.profielfoto = (link naar profiel foto)
         }
 
-        gebruikersacties (gebruikersnaam, tag, userid) {
+        gebruikersinformatie (gebruikersnaam, tag, userid) {
             this.gebruikersnaam = gebruikersnaam;
             this.tag = tag;
             this.userid = userid;
