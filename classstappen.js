@@ -1,14 +1,14 @@
 class discordgebruiker {
         constructor() {
-            this.gebruikersnaam
-            this.tag
-            this.userid
-            // this.profielfoto
+            this.gebruikersnaam = 'Jan';
+            this.tag = '0001';
+            this.userid = '5439153010';
+            // this.profielfoto = (link naar profiel foto)
         }
 
         gebruikersacties (gebruikersnaam, tag, userid) {
-            this.gebruikersnaam = 'Jan';
-            this.tag = "0001";
-            this.userid = "5439153010";
+            this.gebruikersnaam = gebruikersnaam;
+            this.tag = tag;
+            this.userid = userid;
         }
     }
